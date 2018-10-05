@@ -17,3 +17,10 @@ function sayHello(alert) {
     alert("Hello World!")
 };
 alert("Hello World!");
+// Check age
+let age = 18;
+let firstname = 'Charles';
+function checkAge(firstname, age) {
+    if (age < 21)
+    console.log("Sorry ${Charles} you aren't old enough to view this page")
+};
